@@ -3,15 +3,12 @@ import javax.sound.midi.Soundbank;
 public class Main {
     public static void main(String[] args) {
 
-        int cost = 42502;  // Объявляете переменные для входных данных и
-        int rforbonus = 20;// параметров программы: одну для хранения
-                           // стоимости билета, другую для хранения количества
-                           // рублей для одной бонусной мили
+        int cost = 42502;  // стоимость билета
+        int rubleForBonus = 20;//сумма за которую начисляется 1 бонусная миля
 
-        int bonus = cost / rforbonus;
-        System.out.println(bonus);
-        // Рассчитываете количество бонусных миль, используя
-        // значения заведённых переменных. Ответ сохраняете в
-        // новую переменную и выводите на экран
+        int bonus = cost / rubleForBonus;//рассчитываем количество бонусных миль
+        System.out.println(bonus);//выводим на экран
+
+
     }
 }
